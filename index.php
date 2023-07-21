@@ -5,6 +5,7 @@ if (file_exists('todo.json')) {
     $json = file_get_contents('todo.json');
     $todos = json_decode($json, true);
 }
+
 ?>
 
 <!DOCTYPE html>
